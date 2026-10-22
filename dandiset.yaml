@@ -188,4 +188,8 @@ studyTarget:
 - Striatum
 url: https://dandiarchive.org/dandiset/002029/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- description: BRAIN Initiative Cell Atlas Network
+  identifier: RRID:SCR_022794
+  name: BICAN
+  schemaKey: Project
