@@ -3,7 +3,19 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- identifier: UBERON:0002435
+  name: Striatum
+  schemaKey: Anatomy
+- identifier: UBERON:0001873
+  name: Caudate nucleus
+  schemaKey: Anatomy
+- identifier: UBERON:0001874
+  name: Putamen
+  schemaKey: Anatomy
+- identifier: UBERON:0001882
+  name: Nucleus accumbens
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -11,12 +23,14 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Baker, Pamela (2026) Morphoelectric Diversity and Specialization of Neuronal
-  Cell Types in the Primate Striatum (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002029/draft
+citation: Liu, Xiao-Ping; Dalley, Rachel; Johansen, Nelson; Budzillo, Agata; Walling-Bell,
+  Sarah; Zeng, Hongkui; Sorensen Staci A; Lee, Brian R; Ting, Jonathan; Lein, Ed S;
+  Kalmbach, Brian (2026) Morphoelectric Diversity and Specialization of Neuronal Cell
+  Types in the Primate Striatum (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002029/draft
 contributor:
 - affiliation: []
   email: pamelabakerallen@gmail.com
-  includeInCitation: true
+  includeInCitation: false
   name: Baker, Pamela
   roleName:
   - dcite:ContactPerson
@@ -31,6 +45,105 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- affiliation:
+  - name: Allen Institute, Brain Health Accelerator
+    schemaKey: Affiliation
+  identifier: 0000-0003-3449-7601
+  includeInCitation: true
+  name: Liu, Xiao-Ping
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute, Brain Science Accelerator
+    schemaKey: Affiliation
+  identifier: 0000-0001-7461-7845
+  includeInCitation: true
+  name: Dalley, Rachel
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute, Brain Health Accelerator
+    schemaKey: Affiliation
+  identifier: 0000-0002-4436-969X
+  includeInCitation: true
+  name: Johansen, Nelson
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute, Brain Science Accelerator
+    schemaKey: Affiliation
+  identifier: 0000-0002-2723-3272
+  includeInCitation: true
+  name: Budzillo, Agata
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute, Brain Science Accelerator
+    schemaKey: Affiliation
+  identifier: 0000-0001-6995-2681
+  includeInCitation: true
+  name: Walling-Bell, Sarah
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute, Brain Science Accelerator
+    schemaKey: Affiliation
+  identifier: 0000-0002-0326-5878
+  includeInCitation: true
+  name: Zeng, Hongkui
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute, Brain Science Accelerator
+    schemaKey: Affiliation
+  identifier: 0000-0002-6799-2126
+  includeInCitation: true
+  name: Sorensen Staci A
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute, Brain Health Accelerator
+    schemaKey: Affiliation
+  identifier: 0000-0002-3210-5638
+  includeInCitation: true
+  name: Lee, Brian R
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute, Brain Health Accelerator
+    schemaKey: Affiliation
+  identifier: 0000-0001-8266-0392
+  includeInCitation: true
+  name: Ting, Jonathan
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute, Brain Health Accelerator
+    schemaKey: Affiliation
+  identifier: 0000-0001-9012-6552
+  includeInCitation: true
+  name: Lein, Ed S
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute, Brain Health Accelerator
+    schemaKey: Affiliation
+  identifier: 0000-0003-3136-8097
+  includeInCitation: true
+  name: Kalmbach, Brian
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2026-10-15T20:19:34.394848+00:00'
 description: Single cell patch-clamp electrophysiological data from non-human primate
   striatum cell types were acquired via the Patch-seq method.
@@ -43,10 +156,36 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002029/versions/draft/assets/
 name: Morphoelectric Diversity and Specialization of Neuronal Cell Types in the Primate
   Striatum
-relatedResource: []
+relatedResource:
+- identifier: nemo:dat-nsm6mxv
+  name: Morphoelectric Diversity and Specialization of Neuronal Cell Types in the
+    Primate Striatum
+  relation: dcite:IsSupplementTo
+  repository: NeMO Archive
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://assets.nemoarchive.org/dat-nsm6mxv
+- identifier: doi:10.35077/g.1210
+  name: Morphoelectric Diversity and Specialization of Neuronal Cell Types in the
+    Primate Striatum
+  relation: dcite:IsSupplementTo
+  repository: Brain Image Library (BIL)
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: http://doi.org/10.35077/g.1210
+- identifier: 'doi:10.64898/2026.02.26.708019 '
+  name: Morphoelectric Diversity and Specialization of Neuronal Cell Types in the
+    Primate Striatum
+  relation: dcite:IsDescribedBy
+  repository: bioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.64898/2026.02.26.708019v1
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- Striatum
 url: https://dandiarchive.org/dandiset/002029/draft
 version: draft
 wasGeneratedBy: []
