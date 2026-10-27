@@ -173,14 +173,14 @@ relatedResource:
   resourceType: dcite:Dataset
   schemaKey: Resource
   url: http://doi.org/10.35077/g.1210
-- identifier: 'doi:10.64898/2026.02.26.708019 '
+- identifier: doi:10.1016/j.cell.2026.10.028
   name: Morphoelectric Diversity and Specialization of Neuronal Cell Types in the
     Primate Striatum
   relation: dcite:IsDescribedBy
-  repository: bioRxiv
-  resourceType: dcite:Preprint
+  repository: Cell
+  resourceType: dcite:JournalArticle
   schemaKey: Resource
-  url: https://www.biorxiv.org/content/10.64898/2026.02.26.708019v1
+  url: https://dx.doi.org/10.1016/j.cell.2026.10.028
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
