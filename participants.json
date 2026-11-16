@@ -1,0 +1,30 @@
+{
+    "participants_id": {
+        "Description": "A unique identifier for this participant at DANDI.",
+        "LongName": "Participants ID"
+    },
+    "donor_nhash_id": {
+        "Description": "The unique NHash identifier for this participant (Donor) at NIMP Analytics (see https://brain-specimenportal.org/nimp_analytics).",
+        "LongName": "Donor NHash ID"
+    },
+    "donor_local_id": {
+        "Description": "LIMS specimen identifier of the donor animal. Corresponds to donor_local_id in mapping.tsv.",
+        "LongName": "Donor Local ID"
+    },
+    "species_name": {
+        "Description": "The common name for the species of the participant.",
+        "LongName": "Species Name"
+    },
+    "species_ncbi_taxon": {
+        "Description": "The NCBI Taxonomy identifier for the species of the participant.",
+        "LongName": "Species NCBI Taxon"
+    },
+    "sex_at_birth": {
+        "Description": "Sex of the participant.",
+        "Levels": {
+            "Male": "male",
+            "Female": "female"
+        },
+        "LongName": "Sex at Birth"
+    }
+}

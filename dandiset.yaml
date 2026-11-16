@@ -20,9 +20,17 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_016124
+    name: Brain Imaging Data Structure (BIDS)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 84941
+  numberOfFiles: 8
   schemaKey: AssetsSummary
+  species: []
+  variableMeasured: []
 citation: Liu, Xiao-Ping; Dalley, Rachel; Johansen, Nelson; Budzillo, Agata; Walling-Bell,
   Sarah; Zeng, Hongkui; Sorensen Staci A; Lee, Brian R; Ting, Jonathan; Lein, Ed S;
   Kalmbach, Brian (2026) Morphoelectric Diversity and Specialization of Neuronal Cell
