@@ -37,8 +37,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: current clamp technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 898582674
-  numberOfFiles: 25
+  numberOfBytes: 1269289051
+  numberOfFiles: 32
   numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
@@ -173,8 +173,21 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2026-10-15T20:19:34.394848+00:00'
-description: Single cell patch-clamp electrophysiological data from non-human primate
-  striatum cell types were acquired via the Patch-seq method.
+description: The basal ganglia are evolutionary ancient subcortical nuclei that form
+  interconnected loops with the neocortex and limbic system to  regulate movement,
+  learning, habit formation, emotion, and motivation. Their dysfunction contributes
+  to major neurological and  psychiatric disorders, yet most cellular-level insights
+  derive from rodent studies, leaving knowledge gaps in humans and  translationally
+  relevant primate species. To address this, we generated multi-modal Patch-seq data
+  linking transcriptomic identity  with morphological and electrophysiological properties
+  in macaque striatum, the input nucleus of the basal ganglia. We found  underappreciated
+  diversity among medium spiny neurons, including non-canonical types, and variation
+  aligned with functional  gradients. Interneurons also exhibited spatial variation
+  and even greater morphoelectric diversity, highlighting their functional  modularity.
+  Despite broad evolutionary conservation, we identified primate-specific features
+  and key differences from rodent  striatal neurons. By integrating molecular classification
+  with cellular properties that shape network function, our findings provide  insights
+  into the functional organization of the primate striatum.
 ethicsApproval: []
 id: DANDI:002029/draft
 identifier: DANDI:002029
