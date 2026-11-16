@@ -37,8 +37,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: current clamp technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 351700891
-  numberOfFiles: 14
+  numberOfBytes: 898582674
+  numberOfFiles: 25
   numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
@@ -209,6 +209,13 @@ relatedResource:
   resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://dx.doi.org/10.1016/j.cell.2026.10.028
+- name: HMBA Human, Macaque, and Marmoset Multiomic, Spatial Transcriptomic, and Patch-seq
+    Basal Ganglia Dataset
+  relation: dcite:IsSupplementTo
+  repository: BKP Data Catalog
+  resourceType: dcite:InteractiveResource
+  schemaKey: Resource
+  url: https://knowledge.brain-map.org/data/POZ2HCPBT60DSDJ8UA7/
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
