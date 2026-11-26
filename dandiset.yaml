@@ -37,9 +37,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: current clamp technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 11129856807
-  numberOfFiles: 204
-  numberOfSubjects: 31
+  numberOfBytes: 11505625430
+  numberOfFiles: 210
+  numberOfSubjects: 33
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9545
@@ -47,6 +47,9 @@ assetsSummary:
     schemaKey: SpeciesType
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
     name: Macaca mulatta - Rhesus monkey
+    schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9541
+    name: Macaca fascicularis - Cynomolgus monkeys
     schemaKey: SpeciesType
   variableMeasured:
   - VoltageClampStimulusSeries
